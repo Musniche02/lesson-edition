@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="./style.css">
+            <title>Document</title>
 </head>
 <body>
-    <h1>Registration</h1>
-    <form method="post" enctype="multipart/form-data">
-        <label for="firstname"> Name: </label>
-        <input type="text" id="firstname" placeholder="Isming nima">
-        <br><br>
-        <label for="lastname">Last Name: </label>
-        <input type="text" id="lastname" placeholder="Familiyang nima">
-        <br><br>
-        <label for="email">Email: </label>
-        <input type="email" id="email">
-        <br><br>
-        <label for="pass">Password: </label>
-        <input type="password" id="pass" >
-        <br><br>
-        <label for="num">Number: </label>
-        <input type="number" id="num">
-        <br><br>
-        <label for="" >Yes</label>
-        <input type="radio" name="gender">
-        <br>
-        <label for="">No</label>
-        <input type="radio" name="gender" id="">
-        <br><br>
-       
-       
-        <br>
-        <button type="submit">Yuborish</button>
-    </form>
+
+            <table class="table">
+                        <caption>Odamlar haqida ma'lumot</caption>
+                   <thead>
+                        <tr>
+                                    <th class="yashil">№</th>
+                                    <th class="qizil">Ism</th>
+                                    <th class="qora">Familya</th>
+                                    <th class="qora">Yosh</th>
+                                    <th class="sariq">Yo'nalishingiz</th>
+                        </tr>
+                   </thead> 
+                   
+                   <tbody>
+                        <tr>
+                                    <td class="yashil">1</td>
+                                    <td class="qora">Mohir</td>
+                                    <td class="qizil">Sobirjonov</td>
+                                    <td class="sariq">11</td>
+                                    <td class="qora">Student</td>
+                        </tr>
+                        <tr>
+                                    <td class="yashil">2</td>
+                                    <td class="qora">Bexruz</td>
+                                    <td class="sariq">Qurbonov</td>
+                                    <td class="qizil">12</td>
+                                    <td class="qora">Student</td>
+                        </tr>
+                        <tr>
+                                    <td class="yashil">3</td>
+                                    <td class="qora">Ubaydullo</td>
+                                    <td class="sariq">Alimjonov</td>
+                                    <td class="sariq">12</td>
+                                    <td class="qizil">O'quvchi</td>
+                        </tr>
+                   </tbody>
+            </table>
+
+            
 </body>
 </html>

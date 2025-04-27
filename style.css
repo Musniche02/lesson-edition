@@ -1,0 +1,37 @@
+.table {
+            width: 80%;
+            border: 1px solid red;
+            margin: 30px auto;
+            background-color: blue;
+            text-align: center;
+            border-collapse: collapse;
+            color: white;
+}
+
+caption {
+            background-color: blue;
+            color: white;
+            height: 30px;
+}
+
+th , td {
+            border: 2px solid blue;
+            height: 30px;
+}
+
+.yashil {
+            background-color: green;
+}
+
+.qizil {
+            background-color: red;
+}
+
+.qora {
+            background-color: black;
+}
+
+.sariq {
+            background-color: yellow;
+            color: black;
+}
