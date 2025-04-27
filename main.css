@@ -1,0 +1,17 @@
+.block {
+  width: 50px;
+  padding: 50px;
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMDktYWV3LTAxM18xXzEuanBn.jpg");
+  background-size: cover;
+}
+.cercle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("https://img.freepik.com/free-vector/grunge-watercolor-background-using-pastel-colours_1048-6530.jpg");
+  background-size: cover; 
+  margin-left: 50px;
+}
+.body {
+  display: flex;
+}
